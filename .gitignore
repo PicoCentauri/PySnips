@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# editors and IDEs
+*.sw[a-z]
+*~
+.idea
+.vscode
