@@ -7,5 +7,5 @@ import mpltex
 import numpy as np
 
 
-TAB10 = plt.rcParams["axes.prop_cycle"].by_key()["color"]
-FSIZE = np.array([mpltex.acs._width, mpltex.acs._height])
+tab10 = plt.rcParams["axes.prop_cycle"].by_key()["color"]
+fsize = np.array([mpltex.acs._width, mpltex.acs._height])
