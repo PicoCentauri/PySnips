@@ -51,7 +51,7 @@ def _write_xyz_rascal(fname, positions, chemical_symbols, cell):
 
 def _write_xyz_ipi(fname, positions, chemical_symbols, cell):
     out = f"{len(positions)}\n"
-    f_cellpar = [f"{i:11.5f}" for i in triclinic_box(cell)]
+    f_cellpar = [f"{i:11.5f}" for i in triclinic_box(*cell)]
 
     out += f"# CELL(abcABC):{' '.join(f_cellpar)}  "
     out += "cell{angstrom}  Traj: positions{angstrom} "
